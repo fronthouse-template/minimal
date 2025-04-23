@@ -2,9 +2,11 @@
     "Routes": [
         {
             "PathRegex": "^/",
+            "LoadBalancing": "WeightedRoundRobin",
             "Targets": [
                 {
-                    "Url": "https://YOUR-UPSTREAM-SERVER"
+                    "Url": "https://YOUR-UPSTREAM-SERVER",
+                    "Weight": 1
                 }
             ]
         }
