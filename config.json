@@ -1,0 +1,12 @@
+{
+    "Routes": [
+        {
+            "PathRegex": "^/",
+            "Targets": [
+                {
+                    "Url": "https://YOUR-UPSTREAM-SERVER"
+                }
+            ]
+        }
+    ]
+}
