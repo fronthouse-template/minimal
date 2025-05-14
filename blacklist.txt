@@ -1,0 +1,6 @@
+# list of urls that are blacklisted
+# eg 
+#/black/listed/url
+#
+# comments start with a #
+# url's must start with a forward slash
